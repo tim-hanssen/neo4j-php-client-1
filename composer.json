@@ -24,7 +24,7 @@
     },
     "require": {
         "php": "^7.2 || ^8.0",
-        "laudis/typed-enum": "^1.3.2",
+        "tim-hanssen/typed-enum": "dev-master",
         "php-http/discovery": "^1.13",
         "psr/http-message": "^1.0",
         "psr/http-factory": "^1.0",
@@ -39,6 +39,12 @@
         "ext-bcmath": "Needed to implement bolt protocol",
         "composer-runtime-api": "Install composer 2 for auto detection of version in user agent"
     },
+      "repositories": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/tim-hanssen/typed-enum.git"
+        }
+      ],
     "require-dev": {
         "phpunit/phpunit": "^9.0",
         "nyholm/psr7": "^1.3",
